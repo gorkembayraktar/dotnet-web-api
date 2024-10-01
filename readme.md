@@ -4,7 +4,7 @@
 
 
 #### Gereklilikler
-    SQL Server Management (DB Arayüz Yönetimi için)
+    (DB Arayüz Yönetimi için) SQL Server Management 
 
 #### Proje Notları
     1) API 'ı çalıştırmak için /api dizininde 
@@ -19,7 +19,8 @@ dotnet watch
         - Microsoft.EntityFrameworkCore.Sqlite.Core 8.0.8
         - Microsoft.EntityFrameworkCore.SqlServer 8.0.8
         - Microsoft.EntityFrameworkCore.Tools 8.0.8
-    
+        - Microsoft.AspNetCore.Mvc.NewtonsoftJson 8.0.8
+        - Newtonsoft.Json 13.0.3
 
     2.1) api/appsettings.json "DefaultConnection" değeri veri kaynağınız ile güncellenmeli 
 
