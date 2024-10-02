@@ -21,6 +21,9 @@ dotnet watch
         - Microsoft.EntityFrameworkCore.Tools 8.0.8
         - Microsoft.AspNetCore.Mvc.NewtonsoftJson 8.0.8
         - Newtonsoft.Json 13.0.3
+        - Microsoft.AspNetCore.Identity.EntityFrameworkCore 8.0.8
+        - Microsoft.Extensions.Identity.Core 8.0.8
+        - Microsoft.AspNetCore.Authentication.JwtBearer 8.0.8
 
     2.1) api/appsettings.json "DefaultConnection" değeri veri kaynağınız ile güncellenmeli 
 
@@ -33,4 +36,8 @@ dotnet ef migrations add InitialMigration
 ```
 dotnet ef database update
 ```
-
+Identity migrationunu eklenmesi
+```
+dotnet ef migrations add Identity
+dotnet ef database update
+```
