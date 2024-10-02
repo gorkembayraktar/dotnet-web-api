@@ -40,4 +40,12 @@ Identity migrationunu eklenmesi
 ```
 dotnet ef migrations add Identity
 dotnet ef database update
+
+
+```
+
+SeedRole migrationunu eklenmesi
+```
+dotnet ef migrations add SeedRole
+dotnet ef database update
 ```
